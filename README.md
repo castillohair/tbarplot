@@ -26,14 +26,16 @@ langs = ['C', 'C++', 'R', 'Python']
 values = [20, 15, -10, 35]
 yerr = [2, 5, 3, 7]
 
-# creating the bar plot
+# Bar plot
 fig = plt.figure()
 tbarplot.bar(langs, values, yerr=yerr)
+
+# Configure plot as with any other matplotlib function
 plt.xlabel("Programming language")
 plt.ylabel("How much I like this language")
 plt.title("My programming language preferences")
 plt.show()
 
-![Example tbarplot](example_output.png?raw=true "Example")
-
 ```
+
+![Example tbarplot](example_output.png?raw=true "Example")
